@@ -1,0 +1,231 @@
+/* CSS Document */
+body {
+scrollbar-base-color: #1A1A1A;
+scrollbar-arrow-color: #FF0000;
+scrollbar-3dlight-color: #FF0000;
+scrollbar-darkshadow-color: #FF0000;
+scrollbar-face-color: #00CCFF;
+scrollbar-highlight-color: #00FFFF;
+scrollbar-shadow-color: #00FFFF;
+scrollbar-track-color: #00FFFF;
+background-color:#00BFFF; color:#222;
+}
+.container { width:900px; background-color:#7FFFD4;}
+.header{ height:400px; 
+         width:760px; 
+         background-color:#FFF;}
+.title { height:400px; 
+         width:900px; background-image:url(images/header2.jpg)}
+.nume { height:100px; float:right; margin-top:25px; margin-right:30px; margin-bottom:25px;
+        width:220px;}
+a { color:#900; font-weight:bold;}
+a:hover { color:#f00; font-weight:bold;}
+
+.clearit {
+	margin: 0;
+	padding: 0;
+	height: 0;
+	clear: both;
+}
+
+/* BUBBLE PLASTIC HORIZONTAL MENU */
+
+.bubplastic.horizontal {
+	width: 100%;
+	height: 27px;
+	margin: 0;
+	padding: 0;
+	background: #000000 url(images/bg-bubplastic.gif) top left repeat-x;
+}
+.bubplastic.horizontal ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.bubplastic.horizontal ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: transparent url(images/bg-bubplastic-button.gif) top left no-repeat;
+}
+
+.bubplastic.horizontal ul li a {
+	display: block;
+	height: 100px;
+	padding-left: 35px;
+	float: left;
+	text-transform: uppercase;
+	font-family: "Helvetica Neue",helvetica,"microsoft sans serif",arial,sans-serif;
+	font-size: 70%;
+	color: #00FFFF;
+	text-decoration: none;
+}
+
+.bubplastic.horizontal ul li a span.menu_ar {
+	display: block;
+	float: left;
+	height: 22px;
+	padding-top: 5px;
+	padding-right: 35px;
+	background: transparent url(images/bg-bubplastic-button.gif) top right no-repeat;
+	cursor: pointer;
+}
+/* END BUBBLE PLASTIC HORIZONTAL MENU */
+
+
+
+/* BUBBLE PLASTIC VERTICAL MENU */
+
+.bubplastic.vertical {
+	width: 250px;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.bubplastic.vertical ul {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.bubplastic.vertical ul li {
+	display: block;
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: transparent url(images/bg-bubplastic-button.gif) top left no-repeat;
+}
+
+.bubplastic.vertical ul li a {
+	display: block;
+	margin: 0;
+	width: 100%;
+	padding-left: 35px;
+	text-transform: uppercase;
+	font-family: "Helvetica Neue",helvetica,"microsoft sans serif",arial,sans-serif;
+	font-size: 70%;
+	color: #1E90FF;
+	text-decoration: none;
+	background: transparent url(images/bg-bubplastic-button.gif) top left no-repeat;
+}
+
+.bubplastic.vertical ul li a span.menu_ar {
+	display: block;
+	margin: 0;
+	width: 100%;
+	height: 22px;
+	padding-top: 5px;
+	padding-right: 100px;
+	background: transparent url(images/bg-bubplastic-button.gif) top right no-repeat;
+	cursor: pointer;
+}
+/* END BUBBLE PLASTIC VERTICAL MENU */
+
+
+/* RED HOVER */
+.bubplastic.red ul li a:hover,
+.bubplastic.red ul li.highlight a {
+	background: transparent url(images/bg-bubplastic-h-red.gif) top left no-repeat;
+}
+.bubplastic.red ul li a:hover span.menu_ar,
+.bubplastic.red ul li.highlight a span.menu_ar {
+	background: transparent url(images/bg-bubplastic-h-red.gif) top right no-repeat;
+}
+
+#test li {
+	display: block;
+	border: solid 1px red;
+}
+
+#content-r {
+	float: right; background-color:#1E90FF;
+	width: 60px;
+}
+
+#content-r .padding {
+	padding: 25px;
+}
+
+#content-l {
+	margin-right: -30px; text-align:left;
+}
+
+#content-l .padding {
+	padding: 20px;
+}
+#content-l h1 {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 15px;
+}
+
+#content-l p {
+	margin: 0; 
+	padding: 0;
+	padding-bottom: 15px;
+}
+
+#footer {;
+	height: 60px;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: =20px;
+	border-top: 1px solid #000000;
+	padding: 13px 25px;
+	line-height: 18px;
+}
+
+
+
+h1 { font-size:20px; color:#CCCCCC; font-family:Georgia, "Times New Roman", Times, serif;
+}
+a#home {
+    display: block; float:left;
+    width: 150px;
+    height: 50px;
+    background-image: url(images/home.png);
+}
+
+
+a .alt { display: none; }
+
+a#insert {
+    display: block; float:left; 
+    width: 1500px;
+    height: 50px;
+    background-image: url(images/insert.png);
+}
+a#update {
+    display: block; float:left; 
+    width: 150px;
+    height: 50px;
+    background-image: url(images/update.png);
+}
+a#delete {
+    display: block; float:left; 
+    width: 150px;
+    height: 50px;
+    background-image: url(images/delete.png);
+}
+a#contact {
+    display: block; float:left; 
+    width: 150px;
+    height: 50px;
+    background-image: url(images/contact.png);
+}
+
+a#Logout {
+    display: block; float:left; 
+    width: 150px;
+    height: 50px;
+    background-image: url(images/contact.png);
+}
+
+input[type="text"] {
+    width: 200px;
+}
+
+
+a .alt { display: none; }
+input { width:30px;}
+textarea { width:150px; overflow:hidden; height:60px; }
